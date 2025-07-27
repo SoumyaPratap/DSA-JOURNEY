@@ -1,3 +1,5 @@
+//TOPIC = ARRAYS DATA STRUCTURE
+
 //Day 1 Challenge: Squares of a Sorted Array
 //📌 Problem:
 //You're given a sorted array in non-decreasing order. You need to return a new array containing the squares of each number, also sorted in non-decreasing order.
@@ -38,3 +40,6 @@ public class Day1 {
         return result;
     }
 }
+
+// TIME COMPLEXITY OF MY APPROACH IS = O(N)
+// SPACE COMPLEXITY IS ALSO O(N)
