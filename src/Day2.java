@@ -1,13 +1,18 @@
-package src;
+import java.util.Arrays;
 
 public class Day2 {
 
-    //🔷 TOPIC: Arrays
-    //📅 Day 2 Challenge: Sort an array of 0s, 1s and 2s
-    //✅ Problem Statement:
-    //Given an array consisting only of 0s, 1s, and 2s,
-    //sort it without using any in-built sort function.
-    //Use a counting method (often called the "Dutch National Flag" approach).
+    /*🔷 TOPIC: Arrays
+    📅 Day 2 Challenge: Sort an array of 0s, 1s and 2s
+    ✅ Problem Statement:
+    Given an array consisting only of 0s, 1s, and 2s,
+    sort it without using any in-built sort function.
+    Use a counting method (often called the "Dutch National Flag" approach).*/
+
+
+   /* public void sort012(int[] arr){ This is bruth force approach by using sort function
+        Arrays.sort(arr);
+    }*/
 
     public void sort012(int[] arr) {
         int count0 = 0, count1 = 0, count2 = 0;
@@ -39,4 +44,4 @@ public class Day2 {
     }
 }
 
-// Time complexity
+// Time complexity =
