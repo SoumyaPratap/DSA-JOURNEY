@@ -1,6 +1,9 @@
 import java.util.Arrays;
 
 public class  Day3 {
+    public static void main(String[] args) {
+
+    }
 
     //TOPIC: Arrays
     // 📅 Day 3 Challenge: Subset of array.
