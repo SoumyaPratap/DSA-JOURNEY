@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class Day2 {
 
+
     /*🔷 TOPIC: Arrays
     📅 Day 2 Challenge: Sort an array of 0s, 1s and 2s
     ✅ Problem Statement:
