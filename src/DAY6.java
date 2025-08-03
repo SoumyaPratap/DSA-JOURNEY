@@ -7,26 +7,15 @@ public class DAY6 {
     PLATFORM : GFG  */
 
 
-    public static void main(String[] args) {
-
-    }
+    public static void main(String[] args) {}
 
 
     public int countOnes(int[] arr){
 
         int count=0;
-        for(int i =0; i<arr.length;i++)
-        {
-
-            count = count + arr[i];
-        }
-
-        return count;
-    }
-
-
+        for(int i =0; i<arr.length;i++) {
+            count = count + arr[i];}
+        return count;}
 }
-
-
  /*Time complexity =   o(n)
- Space complexity = o(1)  */
+   Space complexity = o(1)  */

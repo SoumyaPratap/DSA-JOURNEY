@@ -7,9 +7,16 @@ public class DAY5 {
       PLATFORM : GFG */
 
     public static void main(String[] args) {
+
+        int[] inputNumber = {1,2,3,5};
+        int result = missingNo(inputNumber);
+        System.out.println("The missing number is :" + result);
+
     }
-    public int missingNo(int[] arr)
+    public static  int missingNo(int[] arr)
     {
+
+
         int n = arr.length+1;
 
         for(int i = 0; i<arr.length; i++)
